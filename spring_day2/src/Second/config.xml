@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    
+    
+    <bean class="First.Student" id="t1">
+    
+    <property name="sid" value="101"></property>
+    <property name="sname" value="Nilesh"></property>
+    <property name="semail" value="nilesh@123gmail.com"></property>
+    
+
+    </bean>
+
+</beans>
